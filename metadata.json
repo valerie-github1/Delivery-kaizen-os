@@ -1,0 +1,6 @@
+{
+  "name": "Kaizen OS Delivery",
+  "description": "Evidence Review and Verification workspace with complete project management, Kanban delivery board, team capacity, backlog, and Kairos agent governance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --sd: #3E4F55;
+  --sl: #556970;
+  --sl2: #7A9098;
+  --ol: #ABA944;
+  --od: #8A8835;
+  --ol10: rgba(171, 169, 68, 0.10);
+  --ol20: rgba(171, 169, 68, 0.20);
+  --bg: #F7F6F2;
+  --fog: #EFF0EA;
+  --stone: #D6D5C8;
+  --ink: #1F2426;
+  --ink2: #3D4447;
+  --ink3: #6B7477;
+  --ink4: #9BA4A7;
+  --bdr: rgba(85, 105, 112, 0.12);
+  --bdr2: rgba(85, 105, 112, 0.22);
+  --green: #6DBB7A;
+  --green-d: #3B6D11;
+  --red: #D94F4F;
+  --amber: #8A8835;
+  --blue: #7A9098;
+  --disp: 'Agdasima', sans-serif;
+  --body: 'Source Serif 4', Georgia, serif;
+  --mono: 'Fira Code', monospace;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--body);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Global sleek scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(85, 105, 112, 0.2);
+  border-radius: 10px;
+  transition: background 0.2s;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(85, 105, 112, 0.4);
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(85, 105, 112, 0.2) transparent;
+}
